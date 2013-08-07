@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/ilovelinlin/!svn/ver/21/2/c/socket
+END
+client
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/ilovelinlin/!svn/ver/21/2/c/socket/client
+END
+client.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/ilovelinlin/!svn/ver/21/2/c/socket/client.c
+END
+server
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/ilovelinlin/!svn/ver/21/2/c/socket/server
+END
+server.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/ilovelinlin/!svn/ver/21/2/c/socket/server.c
+END
