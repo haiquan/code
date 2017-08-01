@@ -1,8 +1,0 @@
-haiquan.lo: /home/haiquan/code/c/Extension/haiquan.c
-	$(LIBTOOL) --mode=compile $(CC)  -I. -I/home/haiquan/code/c/Extension $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /home/haiquan/code/c/Extension/haiquan.c -o haiquan.lo 
-$(phplibdir)/haiquan.la: ./haiquan.la
-	$(LIBTOOL) --mode=install cp ./haiquan.la $(phplibdir)
-
-./haiquan.la: $(shared_objects_haiquan) $(HAIQUAN_SHARED_DEPENDENCIES)
-	$(LIBTOOL) --mode=link $(CC) $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) $(LDFLAGS) -o $@ -export-dynamic -avoid-version -prefer-pic -module -rpath $(phplibdir) $(EXTRA_LDFLAGS) $(shared_objects_haiquan) $(HAIQUAN_SHARED_LIBADD)
-
